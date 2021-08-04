@@ -6,13 +6,12 @@ body {
   margin-left: 95px;
 }
 
+
 #greeting {
-  color: whitesmoke;
   font-size: 20px;
 }
 
 #name {
-  color: thistle;
   font-size: 100px;
   font-weight: bold;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -21,27 +20,48 @@ body {
 }
 
 #iBuildWeb {
-  color: tomato;
   text-align: unset;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 100px;
 }
 
 #paragraph {
-  color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 #button {
   border: 2px solid tomato;
   background: none;
-  color: antiquewhite;
+
   padding: 15px;
   border-radius: 15px;
+  margin: 15px;
 }
 
 #button:hover {
   cursor: pointer;
   border: 3px solid tomato;
   background-color: tomato;
+}
+
+.purple {
+  color: purple;
+}
+
+.tomato {
+  color: tomato;
+}
+
+.Images {
+  flex-direction: column;
+}
+
+.bigImage {
+  width: 150px;
+  height: 150px;
+}
+
+.smallImage {
+  width: 250px;
+  height: 250px;
 }
