@@ -13,7 +13,7 @@ function gotGnomed(){
 }
 
 function Franko(){
-    let frank = new Audio("/JS/Sounds/oonaniani.mp3");
+    let frank = new Audio("Sounds/oonaniani.mp3");
     frank.play();    
 
 }
@@ -28,33 +28,8 @@ function randomNumber(max){
     return Math.floor(Math.random()*max)
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function duckQuack(){
-    let quack = new Audio("/JS/Sounds/Quack.mp3");
+    let quack = new Audio("Sounds/Quack.mp3");
     quack.play();
 
     
