@@ -1,8 +1,5 @@
 function rickRoll(){
-    for(let i=0; i<5; i++){
-    window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley")
-
-    }
+    window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley")    
 }
 function gotGnomed(){
     for(let i=0; i<5; i++){
@@ -33,4 +30,12 @@ function duckQuack(){
     quack.play();
 
     
+}
+function bruh(){
+    let bruh = new Audio("Sounds/bruh.mp3");
+    bruh.play();
+}
+function hahaLaugh(){
+    let laugh = new Audio("Sounds/laugh.mp3");
+    laugh.play();   
 }

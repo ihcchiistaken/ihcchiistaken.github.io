@@ -6,9 +6,9 @@ body {
   margin-left: 95px;
 }
 
-
 #greeting {
   font-size: 20px;
+  color: antiquewhite;
 }
 
 #name {
@@ -23,15 +23,18 @@ body {
   text-align: unset;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 100px;
+  color: darksalmon;
 }
 
 #paragraph {
   font-family: Arial, Helvetica, sans-serif;
+  color: beige;
 }
 
 #button {
   border: 2px solid tomato;
   background: none;
+  color: white;
 
   padding: 15px;
   border-radius: 15px;
@@ -44,21 +47,13 @@ body {
   background-color: tomato;
 }
 
-.purple {
-  color: purple;
-}
-
-.tomato {
-  color: tomato;
-}
-
 .Images {
   flex-direction: column;
 }
 
 .bigImage {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
 }
 
 .smallImage {
